@@ -4,12 +4,12 @@ import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className="quote-card-view blend-in-out">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Samrudh Kishsan P M </span> 
-            from <span className="purple"> Kerala, India. </span> 
+          <p style={{ textAlign: "left" }}>
+            Hi Everyone, I am <span className="purple text-hue-rotate">Samrudh Kishsan P M </span> 
+            from <span className="purple text-hue-rotate"> Kerala, India. </span> 
              
             <br />
             I have completed my Bachelor of Technology in Electronics and Communication Engineering from Government College of Engineering, Kannur.
@@ -29,7 +29,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p className="text-hue-rotate" style={{ color: "rgb(155 126 172)" }}>
             "The only way to learn to code is to code." 
           </p> 
           <footer className="blockquote-footer">Samrudh Kishsan P M</footer> 
