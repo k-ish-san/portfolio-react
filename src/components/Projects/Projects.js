@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import rsp from "../../Assets/Projects/rsp.png";
+import portfolio1 from "../../Assets/Projects/1web.png";
 
 function Projects() {
   return (
@@ -19,7 +19,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card text-hue-rotate">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={rsp}
               isBlog={false}
               title="Rock! Paper! Scissors!"
               description="A Dynamic Rock! Paper! Scissors! game using HTML, CSS and Javascript! The game features an intuitive user interface with a cool, animated Play button. Players choose their move, and the game instantly determines the winner with visually appealing results. "
@@ -30,7 +30,7 @@ function Projects() {
 
           <Col md={4} className="project-card text-hue-rotate">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={portfolio1}
               isBlog={false}
               title="Old Portfolio"
               description="This site showcases my skills as a web developer, featuring a clean, responsive design and interactive elements. With a focus on modern web technologies, it highlights my projects, technical expertise, and passion for coding. Built with HTML, CSS and Javascipt"
