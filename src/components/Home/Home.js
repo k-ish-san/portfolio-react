@@ -8,7 +8,7 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section blend-in-out" id="home">
+      <Container fluid className="home-section  blend-in-out" id="home">
         <Particle />
         <Container className="home-content">
           <Row>
@@ -16,7 +16,9 @@ function Home() {
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+                  
+                  👋🏻 
+
                 </span>
               </h1>
 
@@ -34,7 +36,7 @@ function Home() {
               <img 
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
+                className="img-fluid text-hue-rotate"
                 style={{ maxHeight: "450px" }}
               />
             </Col>

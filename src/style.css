@@ -58,12 +58,12 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #9f9f9f;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(37, 0, 158, 0.959);
   border-radius: 12px;
 }
 
@@ -88,6 +88,7 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  font-variant: small-caps;
 }
 
 .navbar-toggler {
@@ -98,7 +99,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #09ebff !important;
+  background-color: #c3ffff !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -179,6 +180,8 @@ button:focus {
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
+  text-align: left;
+
 }
 
 .navbar-nav .nav-item a {
@@ -195,7 +198,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #010db5;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -260,6 +263,7 @@ button:focus {
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/bg.webp);
   background-position: top center;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
@@ -321,6 +325,11 @@ button:focus {
 
 .home-about-section {
   position: relative;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/bg2.webp);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
@@ -404,7 +413,12 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  position: relative;
+
+  background-image: var(--image-gradient), url(./Assets/OIP.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -459,6 +473,7 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  min-width: 350px;
 
 }
 
@@ -801,6 +816,14 @@ button:focus {
 
 .cursive{
   font-family: 'allura';
+}
+
+#skill{
+  color:#dec4ff;
+  font-variant: small-caps;
+  font-size: 1rem;
+  font-family: 'Orbitron';
+  font-style: normal;
 }
 
 

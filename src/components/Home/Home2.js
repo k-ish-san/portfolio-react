@@ -48,13 +48,13 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple text-hue-rotate"> React.js and Next.js</b>
+                <b className="purple text-hue-rotate"> React.js </b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid text-hue-rotate" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

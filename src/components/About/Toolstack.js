@@ -12,12 +12,15 @@ function Toolstack() {
     
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+        <p id="skill">VS Code</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+        <p id="skill">Vercel</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
+        <p id="skill">Figma</p>
       </Col>
     </Row>
   );
